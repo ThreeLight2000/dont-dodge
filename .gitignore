@@ -1,0 +1,46 @@
+# Godot editor and import state
+.godot/
+*.import
+
+# Local builds and exports
+build/
+builds/
+dist/
+exports/
+.android/
+*.apk
+*.aab
+*.keystore
+DerivedData/
+
+# Local tooling and operating-system files
+.DS_Store
+.idea/
+.vscode/
+.serena/
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Export artifacts placed outside build folders
+*.pck
+*.ipa
+*.dmg
+*.app
+*.jks
+
+# Locally generated document exports
+submission/*.pdf
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+*.p12
+*.mobileprovision
+__pycache__/

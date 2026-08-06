@@ -1,0 +1,286 @@
+keys,ko,en
+title.subtitle,"던전의 위협을 베고 · 밀치고 · 직접 피하라","Cut through dungeon threats. Push them back. Or dodge them yourself."
+title.controls,"이동 방향키 · Q 베기 · W 회피 · E 무효화 · R 궁극기\n회피와 무효화는 같은 방어 2칸을 공유합니다","Arrow keys Move · Q Attack · W Dodge · E Nullify · R Ultimate\nDodge and Nullify share two defense charges"
+title.start,게임 시작,Start Game
+title.start_tooltip,일반 전투를 시작합니다,Start a standard run
+title.mode,전투 모드,Game Mode
+title.challenge,도전 모드,Challenge Mode
+title.challenge_tooltip,"랜덤 디버프 하나를 안고 90초 생존","Survive 90 seconds with one random debuff"
+title.training,훈련장,Training Grounds
+title.training_tooltip,"무기와 강화 트리를 고르고 원하는 적을 소환합니다","Choose a weapon and upgrade path, then summon the enemies you want"
+title.guide,전투 가이드,Dodge Guide
+title.guide_tooltip,"DON'T DODGE 조작과 대응 가이드","DON'T DODGE controls and response guide"
+title.language,언어,Language
+language.ko,한국어,Korean
+language.en,English,English
+audio.bgm_on,BGM: 켜짐,BGM: On
+audio.bgm_off,BGM: 꺼짐,BGM: Off
+audio.sfx_on,효과음: 켜짐,SFX: On
+audio.sfx_off,효과음: 꺼짐,SFX: Off
+training.setup_title,훈련장 설정,Training Setup
+training.setup_subtitle,"시간 제한 없이 원하는 빌드와 적을 직접 시험합니다.","Test any build against any enemy with no time limit."
+training.weapon,무기,Weapon
+training.weapon_tooltip,훈련에 사용할 무기,Weapon used for training
+training.start_level,시작 레벨,Starting Level
+training.technique,레벨 2 기술,Level 2 Technique
+training.ultimate,레벨 3 궁극기,Level 3 Ultimate
+training.level_0,LV 0 · 기본 상태,LV 0 · Base state
+training.level_1,LV 1 · 무기 적용,LV 1 · Weapon equipped
+training.level_2,LV 2 · 기술까지 적용,LV 2 · Technique equipped
+training.level_3,LV 3 · 궁극기까지 적용,LV 3 · Ultimate equipped
+training.level_0_detail,무기와 강화 효과 없이 시작,Start without a weapon or upgrades
+training.level_1_detail,선택한 무기를 적용하고 시작,Start with the selected weapon
+training.level_2_detail,무기와 레벨 2 기술을 적용,Apply the weapon and a level 2 technique
+training.level_3_detail,전체 빌드를 적용하고 시작,Start with the full build applied
+training.level_badge,LV %d,LV %d
+training.weapon_fallback,무기,Weapon
+training.technique_fallback,기술,Technique
+training.ultimate_fallback,궁극기,Ultimate
+training.weapon_card_role,무기 스타일,Weapon style
+training.technique_card_role,레벨 2 기술,Level 2 Technique
+training.ultimate_card_role,레벨 3 궁극기,Level 3 Ultimate
+training.locked_at_level,잠김 · LV%d 필요,Locked · Requires LV%d
+training.hint,"훈련 중에는 자동 웨이브와 90초 종료가 없습니다. 전투 화면에서 적을 소환하고 리셋할 수 있습니다.","Training has no automatic waves or 90-second finish. Summon enemies and reset the fight from the combat screen."
+training.back,로비로 돌아가기,Back to Lobby
+training.enter,훈련장 입장,Enter Training
+training.summary_title,현재 빌드,Current Build
+training.summary,"%s\n%s\n%s\n%s","%s\n%s\n%s\n%s"
+training.summary_level,시작 %s,Start %s
+training.summary_weapon,"무기 · %s\n%s","Weapon · %s\n%s"
+training.summary_option,"%s · %s\n%s","%s · %s\n%s"
+training.summary_locked,잠김 · LV%d에서 선택 가능,Locked · Available at LV%d
+guide.title,DON'T DODGE · 전투 가이드,DON'T DODGE · Combat Guide
+guide.subtitle,"위협을 보고 가장 알맞은 대응을 고르세요.","Read the threat and choose the right response."
+guide.attack_title,"가까운 적","Close threat"
+guide.attack_detail,"Q\n집중 베기로 처치\n근접 적의 공격 예고가 보이면 사용","Q\nCut it down with Attack\nUse it when a close enemy telegraphs"
+guide.dodge_title,"위험한 공격","Dangerous attack"
+guide.dodge_detail,"W\n무적 이동으로 회피\n강한 공격 예고가 보이면 이동하며 사용\n처음 0.15초는 정밀 회피","W\nDodge with an invulnerable dash\nMove with it when a heavy attack telegraphs\nThe first 0.15 seconds is a perfect dodge"
+guide.negate_title,"투사체와 혼전","Projectiles and chaos"
+guide.negate_detail,"E\n적과 탄환을 무효화\n탄환이나 혼전이 보이면 사용","E\nNullify enemies and projectiles\nUse it for bullets or close-quarters chaos"
+guide.ultimate_title,"게이지 충전","Full gauge"
+guide.ultimate_detail,"레벨 3 해금 후 R\n궁극기로 전장 정리","R after the level 3 unlock\nClear the arena with your Ultimate"
+guide.resource_hint,"W와 E는 같은 방어 스택 2칸을 공유합니다. 상황에 맞춰 아껴 쓰세요.","Dodge and Nullify share two defense charges. Save them for the moment that needs them."
+guide.start,전투 시작,Start Battle
+guide.close,닫기,Close
+tutorial.hint_melee,가까운 적은 Q로 처치할 수 있습니다.,A close enemy can be cut down with Q.
+tutorial.hint_negate,탄환이나 혼전은 E로 위험을 지울 수 있습니다.,Use E to clear bullets or close-quarters danger.
+tutorial.hint_dodge,강한 공격 예고가 보이면 W로 이동하며 회피하세요.,When a heavy attack telegraphs move and dodge with W.
+tutorial.hint_defense,W와 E는 방어 스택을 공유합니다.,W and E share your defense charges.
+tutorial.hint_ultimate,레벨 3 궁극기가 해금되었습니다. R로 사용하세요.,Your level 3 Ultimate is unlocked. Press R to use it.
+tutorial.skip,튜토리얼 건너뛰기,Skip Tutorial
+hud.training_time,훈련 시간,Training Time
+hud.remaining_time,남은 시간,Time Remaining
+hud.training,훈련장,Training Grounds
+hud.wave,웨이브 %d / %d,WAVE %d / %d
+hud.unlimited,시간 제한 없음,No Time Limit
+hud.in_progress,진행 중,In Progress
+hud.paused,일시정지,Paused
+hud.upgrade_select,강화 선택,Choose Upgrade
+hud.cleanup_wait,정리 대기,Awaiting Cleanup
+hud.clearing,소탕 중,Clearing
+hud.player_dead,전투 불능,Defeated
+hud.result,결과 확인,Results
+hud.challenge_reveal,디버프 추첨,Rolling Debuff
+hud.base_build,기본 베기 · 무기 선택 전,Base Attack · No weapon selected
+hud.challenge,CHALLENGE · %s,CHALLENGE · %s
+hud.challenge_ready,룰렛 준비 중,Preparing roulette
+hud.level_max,LV %d  ·  MAX,LV %d  ·  MAX
+hud.level_xp,LV %d  ·  XP %d / %d,LV %d  ·  XP %d / %d
+action.attack,베기,Attack
+action.dodge,회피,Dodge
+action.negate,무효화,Nullify
+action.ultimate,궁극,Ultimate
+action.locked,잠김,Locked
+action.attack_cooldown_display,다음 베기 %.1f초,Next slash in %.1f sec
+action.defense_display,방어 %d/%d,Defense %d/%d
+action.defense_locked_display,"방어 %d/%d\n잠김","Defense %d/%d\nLocked"
+action.attack_tooltip_cooldown,"근접 베기\nQ · 피해 %d · 공격속도 %+d%%\n다음 베기까지 %.2f초","Attack\nQ · Damage %d · Attack Speed %+d%%\nNext attack in %.2f sec"
+action.attack_tooltip_ready,"근접 베기\nQ · 피해 %d · 공격속도 %+d%%\n범위 %d · 각도 %d° · 간격 %.2f초","Attack\nQ · Damage %d · Attack Speed %+d%%\nRange %d · Arc %d° · Recovery %.2f sec"
+action.dodge_tooltip,"회피\nW · 이동 방향으로 무적 돌진.\n방어 스택 %d/%d · 사용 비용 %d칸%s","Dodge\nW · Invulnerable dash in your movement direction.\nDefense %d/%d · Cost %d charge%s"
+action.dodge_twice_suffix," · 두 번 사용 가능"," · Can use twice"
+action.negate_tooltip,"무효화\nE · 방어 1칸으로 적과 투사체를 제거합니다.\n%s","Nullify\nE · Spend one defense charge to remove enemies and projectiles.\n%s"
+action.negate_disabled,"단검에서는 사용할 수 없습니다.","Unavailable while using the Dagger."
+action.defense_state,"방어 스택 %d/%d","Defense charges %d/%d"
+action.ultimate_ready,준비 완료,Ready
+action.ultimate_charge,충전 %d%%,Charge %d%%
+action.ultimate_locked_detail,레벨 3에서 무기별 궁극기를 해금합니다.,Unlock a weapon Ultimate at level 3.
+action.ultimate_select_detail,레벨 3에서 궁극기를 선택하세요.,Choose an Ultimate at level 3.
+pause.title,일시정지,Paused
+pause.hint,"Esc 또는 Ⅱ 버튼으로 계속하기","Press Esc or the Ⅱ button to resume"
+pause.challenge,도전 · %s,Challenge · %s
+pause.resume,계속하기,Resume
+pause.restart,다시 시작,Restart
+pause.main,메인으로,Main Menu
+pause.button_tooltip,일시정지 · Esc,Pause · Esc
+upgrade.hint,"카드를 클릭하거나 방향키 + Enter로 선택","Click a card or use the arrow keys + Enter to choose"
+upgrade.weapon_select,무기 선택,Choose a Weapon
+upgrade.technique_select,[%s] 기술 선택,[%s] Choose a Technique
+upgrade.ultimate_unlock,[%s] 궁극기 해금,[%s] Unlock an Ultimate
+upgrade.level_title,레벨 %d\n%s,LEVEL %d\n%s
+upgrade.role,"전투 선택지","Combat choice"
+upgrade.fallback,강화,Upgrade
+upgrade.immediate,"선택 즉시 무기 효과가 적용됩니다.","The weapon effect applies immediately."
+upgrade.effect,효과 · %s%s,Effect · %s%s
+upgrade.rule,\n규칙 · %s,\nRule · %s
+upgrade.weakness,"약점 · %s","Weakness · %s"
+upgrade.condition,"조건 · 선택 즉시 적용","Condition · Applies immediately"
+upgrade.applied,"강화 적용 · %s","Upgrade applied · %s"
+upgrade.applied_detail,"효과가 적용되었습니다.","The effect is now active."
+training.controls_title,훈련장 도구,Training Tools
+training.controls_hint,원하는 위협을 골라 빌드를 바로 시험하세요.,Choose a threat and test your build.
+training.summon_group,위협 소환,Summon Threats
+training.field_group,필드 관리,Field Management
+training.navigation_group,훈련 메뉴,Training Menu
+training.spawn_melee,근접형 위협,Melee Threat
+training.spawn_ranged,원거리형 위협,Ranged Threat
+training.spawn_charger,돌진형 위협,Charging Threat
+training.spawn_volley,연사형 위협,Volley Threat
+training.spawn_elite,정예형 위협,Elite Threat
+training.enemy_melee_role,가까이 붙어 압박하는 위협,Closes in for direct pressure
+training.enemy_ranged_role,거리를 두고 탄환을 쏘는 위협,Keeps distance and fires projectiles
+training.enemy_charger_role,긴 예고 후 직선으로 돌진,Telegraphs a straight-line charge
+training.enemy_volley_role,여러 방향으로 탄환을 흩뿌림,Fills the arena with projectile volleys
+training.enemy_elite_role,강한 체력으로 버티며 보상을 남김,A durable threat that drops a reward
+training.clear,필드 정리,Clear the Field
+training.reset,훈련 초기화,Reset Training
+training.exit,훈련장 나가기,Leave Training
+training.spawn_feedback,훈련 적 소환 · %s,Training enemy summoned · %s
+training.reset_feedback,훈련장 리셋,Training reset
+enemy.melee,근접,melee
+enemy.ranged,원거리,ranged
+enemy.charger,돌진,charger
+enemy.volley,연사,volley
+enemy.elite,정예,elite
+challenge.title,도전 모드 · 디버프 룰렛,CHALLENGE MODE · Debuff Roulette
+challenge.hint,이번 전투에 적용될 제약을 하나 추첨합니다.,Roll one restriction for this run.
+challenge.spinning,룰렛을 돌리는 중...,Rolling roulette...
+challenge.result,결과 확정 · %s\n%s,Result locked · %s\n%s
+challenge.start,도전 시작,Start Challenge
+feedback.title_normal,DON'T DODGE,DON'T DODGE
+feedback.title_challenge,도전 · %s,CHALLENGE · %s
+feedback.training,훈련장 · 시간 제한 없음,Training Grounds · No Time Limit
+feedback.upgrade_applied,%s 적용%s,%s applied%s
+feedback.ultimate_ready_suffix, · 궁극기 준비 완료 · R, · Ultimate ready · R
+feedback.attack_miss,공격이 빗나갔습니다,Attack missed
+feedback.dodge_pending,회피 준비 중,Dodge readying
+feedback.defense_empty,방어 스택 부족,Not enough defense charges
+feedback.dagger_stealth,발도 · 은신,Draw · Stealth
+feedback.spear_breakthrough,돌파 준비,Breakthrough ready
+feedback.dagger_negate_locked,E 잠김 · 단검은 회피에 집중합니다,E locked · The Dagger focuses on dodging
+feedback.front_guard,정면 방어,Front guard
+feedback.no_negate_target,무효화할 대상이 없습니다,There is nothing to nullify
+feedback.no_projectile,막을 탄환이 없습니다,No projectiles to block
+feedback.bullet_cut,탄막 절단 준비 · 다음 Q 3열 창격,Bullet Cut ready · Next Q fires three spear lines
+feedback.ultimate_locked,궁극기 잠김 · 레벨 3에서 해금,Ultimate locked · Unlock it at level 3
+feedback.ultimate_charge,궁극기 충전 %d%%,Ultimate charge %d%%
+feedback.ultimate_missing,궁극기 효과를 찾을 수 없습니다,Ultimate effect unavailable
+feedback.assassination_no_target,암살 표식 · 대상 없음,Assassination Mark · No target
+feedback.ground_suppression,대지 진압 · %d명 처치 · %d명 제압,Ground Suppression · %d defeated · %d staggered
+feedback.wave_pressure,웨이브 %d · 압박 상승,WAVE %d · PRESSURE UP
+feedback.counter_ready,받아냄 · 다음 공격 강화,Countered · Next attack empowered
+feedback.perfect_dodge,완벽 · 정밀 회피,PERFECT · Precision dodge
+feedback.ghost_step,유령보폭 · 이동 가속,Ghost Step · Speed boost
+feedback.elite_down,정예 처치 · 회복 아이템 생성,ELITE DOWN · HEART DROPPED
+feedback.ultimate_ready,궁극기 준비 완료 · R,Ultimate ready · R
+feedback.shadow_frenzy_complete,그림자 폭주 · %d명 처리 완료,Shadow Frenzy · %d target(s) cleared
+feedback.assassination_complete,암살 표식 · 강적 처치,Assassination Mark · Threat eliminated
+feedback.ground_suppression_complete,대지 진압 완료,Ground Suppression complete
+feedback.frontline_break_complete,전선 돌파 · 전선에 진입,Frontline Break · Frontline breached
+feedback.sky_pierce_complete,천공일섬 · 3회 관통,Sky Pierce · Three pierces
+feedback.spear_formation_complete,창진 · 1회 관통,Spear Formation · One pierce
+result.clear,90초 생존 · WAVE %d 잔당 소탕 성공,90 seconds survived · WAVE %d cleared
+result.death,전투 불능,Defeated
+result.normal_mode,"일반 전투","Standard Run"
+result.challenge_mode,도전 · %s,Challenge · %s
+result.summary,"%s\n%s\n처치 %d · 피격 %d · 회피 %d · 무효화 %d\n완벽 회피 %d · 인터럽트 %d · 투사체 삭제 %d\n궁극기 %d회","%s\n%s\nDefeated %d · Hits Taken %d · Dodges %d · Nullifies %d\nPerfect Dodges %d · Interrupts %d · Projectiles Removed %d\nUltimates %d"
+result.restart,다시 시작,Restart
+result.lobby,로비로 가기,Return to Lobby
+data.dagger.title,단검,Dagger
+data.dagger.subtitle,빠르게 한 명씩 제거하는 암살 무기,A lethal weapon for rapid single-target takedowns
+data.dagger.description,"W로 위험을 통과하고, 빠른 단일 대상 공격으로 적을 연달아 처치합니다.","Dash through danger with W, then chain fast single-target attacks."
+data.dagger.detail,공격속도 +35% · 이동속도 +8% · 단일 대상 공격,Attack Speed +35% · Move Speed +8% · Single-target attacks
+data.dagger.icon_label,공격형,Offense
+data.dagger.rule, W 특화 · 한 번에 한 명만 공격,W-specialist · One target at a time
+data.dagger.weakness,낮은 체력 · E 사용 불가 · 짧은 사거리,Low health · E unavailable · Short range
+data.tech_dagger_draw.title,발도,Quick Draw
+data.tech_dagger_draw.description,W가 끝난 뒤 잠시 적의 시야에서 사라집니다.,Vanish from enemy sight for a moment after W ends.
+data.tech_dagger_draw.detail,W 종료 후 0.4초 은신 · 은신 중 첫 공격 피해 +2 · 기존 투사체는 유지,0.4 sec stealth after W · First attack from stealth deals +2 · Existing projectiles remain
+data.tech_dagger_draw.icon_label,회피 연계,Dodge follow-up
+data.tech_dagger_flurry.title,난무,Flurry
+data.tech_dagger_flurry.description,세 번째 공격이 두 번의 단일 대상 베기로 이어집니다.,The third attack continues into two single-target slashes.
+data.tech_dagger_flurry.detail,첫 대상 처치 시 두 번째 베기가 가까운 적으로 전환 · 잔상과 별도 타격음,If the first target falls the second slash retargets nearby · Afterimage and distinct hit sound
+data.tech_dagger_flurry.icon_label,연속 공격,Combo attack
+data.tech_dagger_ghost_step.title,유령보폭,Ghost Step
+data.tech_dagger_ghost_step.description,적을 처치할 때마다 다음 목표로 빠르게 넘어갑니다.,Each takedown gives you a burst of speed toward the next target.
+data.tech_dagger_ghost_step.detail,적 처치 후 0.6초 동안 이동속도 +20% · 처치 시 지속시간 갱신,Move Speed +20% for 0.6 sec after a takedown · Takedowns refresh the duration
+data.tech_dagger_ghost_step.icon_label,이동 강화,Movement boost
+data.ult_dagger_shadow_frenzy.title,그림자 폭주,Shadow Frenzy
+data.ult_dagger_shadow_frenzy.description,가까운 적 셋을 차례로 베며 전장을 가로지릅니다.,Cross the arena in a chain of slashes against up to three nearby enemies.
+data.ult_dagger_shadow_frenzy.detail,최대 3명 · 대상마다 표식 → 돌진 → 4 피해 · 시퀀스 중 무적,Up to 3 targets · Mark → dash → 4 damage per target · Invulnerable during the sequence
+data.ult_dagger_shadow_frenzy.icon_label,다수 암살,Multi-target assassination
+data.ult_dagger_assassination_mark.title,암살 표식,Assassination Mark
+data.ult_dagger_assassination_mark.description,"가장 위협적인 적에게 표식을 남기고 뒤로 순간이동해 집중 공격합니다.","Mark the greatest threat, blink behind it, and unleash a focused assault."
+data.ult_dagger_assassination_mark.detail,정예·차저 우선 지정 · 표식 → 대상 뒤로 돌진 · 4 피해 3연격,Prioritizes elites and chargers · Mark → dash behind target · Three hits for 4 damage each
+data.ult_dagger_assassination_mark.icon_label,단일 암살,Single-target assassination
+data.guardian_mace.title,수호철퇴,Guardian Mace
+data.guardian_mace.subtitle,정면에서 공격을 받아내고 전선을 지키는 무기,A sturdy weapon that holds the line from the front
+data.guardian_mace.description,"E로 정면의 투사체와 공격을 받아치며 W는 방어 스택 두 칸을 쓰는 비상 이동기입니다.","Use E to guard projectiles and attacks from the front; W is an emergency dash costing two defense charges."
+data.guardian_mace.detail,정면 방어 · 강한 넉백 · 회피 비용 2칸 · 최대 체력 3,Front guard · Strong knockback · Dodge costs 2 charges · Max health 3
+data.guardian_mace.icon_label,방어형,Defense
+data.guardian_mace.rule,E 주력 · W 비용 2칸 · 정면 방어,E specialist · W costs 2 charges · Front guard
+data.guardian_mace.weakness,느린 이동 · 측후면 공격에 취약 · 방어 자원 의존,Slow movement · Vulnerable from the sides and rear · Defense-resource dependent
+data.tech_mace_counter.title,받아치기,Counterstrike
+data.tech_mace_counter.description,"E로 막아낸 뒤 1.2초 안에 철퇴 강타로 반격합니다.","After blocking with E, counter with a mace strike within 1.2 seconds."
+data.tech_mace_counter.detail,방어 성공 후 다음 Q 피해 +2 · 넉백 강화 · 공격 준비 중단,Next Q deals +2 after a successful guard · Stronger knockback · Interrupts attacks in preparation
+data.tech_mace_counter.icon_label,반격 강화,Counter boost
+data.tech_mace_reflect_wave.title,반사 파동,Reflective Wave
+data.tech_mace_reflect_wave.description,되받아친 투사체가 적중 지점에서 주변 적까지 휩쓸어갑니다.,A reflected projectile sweeps through nearby enemies at the impact point.
+data.tech_mace_reflect_wave.detail,반사 투사체 적중 시 작은 충격파 · 주변 최대 2명 추가 타격,Reflected projectile creates a small shockwave · Hits up to 2 nearby enemies
+data.tech_mace_reflect_wave.icon_label,반사 공격,Reflect attack
+data.tech_mace_suppress.title,제압 강타,Suppressing Blow
+data.tech_mace_suppress.description,공격을 준비하는 적을 철퇴 한 방으로 끊습니다.,Break an enemy out of an attack wind-up with one mace strike.
+data.tech_mace_suppress.detail,근접 적·차저의 공격 준비 중단 · 강타 연출 · 내부 재사용 2.5초,Interrupts melee and charger wind-ups · Heavy-hit presentation · 2.5 sec internal cooldown
+data.tech_mace_suppress.icon_label,공격 중단,Attack interrupt
+data.ult_mace_ground_suppression.title,대지 진압,Ground Suppression
+data.ult_mace_ground_suppression.description,"짧은 예고 뒤 주변을 내려찍어 전장을 진압합니다.","After a brief warning, slam the ground and control the arena around you."
+data.ult_mace_ground_suppression.detail,예고 → 360도 충격파 · 일반 적 처치 · 정예·차저 피해 및 공격 중단,Warning → 360-degree shockwave · Defeats normal enemies · Damages and interrupts elites and chargers
+data.ult_mace_ground_suppression.icon_label,광역 제압,Area suppression
+data.ult_mace_frontline_break.title,전선 돌파,Frontline Break
+data.ult_mace_frontline_break.description,원거리 전선 또는 마지막 이동 방향으로 방어 돌진합니다.,Make a guarded dash toward the ranged line or your last movement direction.
+data.ult_mace_frontline_break.detail,경로 예고 → 투사체 제거 → 도착 지점 광역 철퇴 공격 · 대상이 없어도 실행,Path warning → removes projectiles → area mace strike on arrival · Executes even without a target
+data.ult_mace_frontline_break.icon_label,전선 돌파,Frontline breach
+data.battle_spear.title,전투창,Battle Spear
+data.battle_spear.subtitle,긴 직선과 관통으로 전장을 가르는 무기,A weapon that cleaves the arena with long piercing lines
+data.battle_spear.description,좁고 긴 공격으로 적을 일렬로 꿰뚫고 W와 E를 이어 다음 공격을 준비합니다.,Pierce enemies in a narrow line and chain W and E into your next attack.
+data.battle_spear.detail,사거리 +60 · 기본 공격 관통 · 투사체 무효화 · 좁은 공격각,Range +60 · Basic attacks pierce · Nullifies projectiles · Narrow attack arc
+data.battle_spear.icon_label,관통형,Piercing
+data.battle_spear.rule,좁고 긴 기본 공격 · 일렬 관통,Narrow long-range basic attack · Line pierce
+data.battle_spear.weakness,좁은 공격각 · 측면 혼전에 취약,Narrow attack arc · Vulnerable in side-on chaos
+data.tech_spear_breakthrough.title,돌파,Breakthrough
+data.tech_spear_breakthrough.description,W로 적을 직접 찌르면 다음 공격이 한 번 더 꿰뚫습니다.,Stab an enemy with W to make your next attack pierce once more.
+data.tech_spear_breakthrough.detail,"W가 적에게 적중하면 0.8초 동안 다음 Q에 추가 관통 창격","If W hits an enemy, the next Q gains an extra piercing strike for 0.8 sec"
+data.tech_spear_breakthrough.icon_label,돌진 연계,Dash follow-up
+data.tech_spear_bullet_cut.title,탄막 절단,Bullet Cut
+data.tech_spear_bullet_cut.description,E로 탄막을 걷어내면 다음 공격이 세 줄의 창격으로 바뀝니다.,Clear a barrage with E to turn your next attack into three spear lines.
+data.tech_spear_bullet_cut.detail,투사체 2개 이상 제거 시 다음 Q가 좁은 3열 창격 · 0.9초 유지,Removing 2+ projectiles turns the next Q into a narrow three-line spear attack · Lasts 0.9 sec
+data.tech_spear_bullet_cut.icon_label,탄막 대응,Barrage response
+data.tech_spear_edge_pressure.title,끝자락 견제,Edge Pressure
+data.tech_spear_edge_pressure.description,사거리 끝에서 적을 꿰뚫어 움직임과 공격을 묶습니다.,Pierce enemies at the edge of your range to bind their movement and attacks.
+data.tech_spear_edge_pressure.detail,사거리 바깥 30% 적중 시 0.65초 감속·표식 · 준비 중인 공격 중단,Hits in the outer 30% of range slow and mark for 0.65 sec · Interrupts attacks in preparation
+data.tech_spear_edge_pressure.icon_label,거리 유지,Keep your distance
+data.ult_spear_sky_pierce.title,천공일섬,Sky Pierce
+data.ult_spear_sky_pierce.description,예고한 직선을 한 번에 꿰뚫어 전장의 선을 정리합니다.,Pierce the warned line in one decisive strike.
+data.ult_spear_sky_pierce.detail,강적 또는 마지막 이동 방향 기준 · 3회 관통 · 회당 피해 3 · 대상 없음도 실행,Based on a strong enemy or last movement direction · 3 pierces · 3 damage each · Executes without a target
+data.ult_spear_sky_pierce.icon_label,직선 폭발,Line burst
+data.ult_spear_formation.title,창진,Spear Formation
+data.ult_spear_formation.description,"적과 연결된 직선을 플레이어 중심으로 화면 전체에 가르고 한 번 관통합니다.","Draw a line from the player through the target across the screen, piercing once."
+data.ult_spear_formation.detail,표식 대상 우선 자동 조준 · 맵 양끝까지 직선 범위 · 1회 공격 · 피해 3,Auto-aims marked targets first · Line reaches both map edges · One attack · 3 damage
+data.ult_spear_formation.icon_label,지역 통제,Area control
+challenge.slow_defense.title,느린 방어 회복,Slow Defense Recovery
+challenge.slow_defense.description,방어 스택 회복 시간이 5초에서 7초로 늘어납니다.,Defense charge recovery takes 7 seconds instead of 5.
+challenge.ultimate_famine.title,궁극기 빈곤,Ultimate Famine
+challenge.ultimate_famine.description,궁극기 획득량이 75%로 감소합니다.,Ultimate gain is reduced to 75%.
+challenge.dry_dungeon.title,메마른 던전,Dry Dungeon
+challenge.dry_dungeon.description,전투 중 회복 아이템이 등장하지 않습니다.,Recovery items do not appear during combat.
+challenge.bullet_overload.title,탄막 과부하,Barrage Overload
+challenge.bullet_overload.description,Volley 적이 투사체를 하나 더 발사합니다.,Volley enemies fire one extra projectile.
