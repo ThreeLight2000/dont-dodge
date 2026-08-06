@@ -108,7 +108,6 @@ func _load_catalog() -> void:
 	_catalog.clear()
 	var file := FileAccess.open(CATALOG_PATH, FileAccess.READ)
 	if file == null:
-		push_error("Could not open DON’T DODGE translation catalog.")
 		return
 	var header: PackedStringArray = file.get_csv_line()
 	if header.is_empty() or header[0] != "keys":

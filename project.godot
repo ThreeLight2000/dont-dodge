@@ -87,7 +87,7 @@ pause={
 
 [locale]
 
-translations=PackedStringArray("res://localization/dont_dodge.csv")
+translations=PackedStringArray("res://localization/dont_dodge.ko.translation", "res://localization/dont_dodge.en.translation")
 
 [rendering]
 
