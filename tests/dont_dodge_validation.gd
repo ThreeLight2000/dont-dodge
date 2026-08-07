@@ -1618,6 +1618,9 @@ func _validate_compact_survival_hud(game: DontDodgeGame) -> void:
 	assert(wave_status_label.text == "진행 중")
 	assert(xp_label.text == "LV 1  ·  XP 5 / 19")
 	assert(player_state_label.text == "♥♥♥")
+	var xp_frame: Control = (game.get("_xp_bar") as ProgressBar).get_parent().get_parent() as Control
+	var action_bar: Control = game.get_node("CombatUILayer/ActionBar") as Control
+	assert(xp_frame.get_global_rect().end.y <= action_bar.get_global_rect().position.y, "experience bar overlaps action bar")
 	assert(not hud.text.contains("적 탄환"))
 	assert(not hud.text.contains("DEF"))
 	assert(not hud.text.contains("베기  피해"))

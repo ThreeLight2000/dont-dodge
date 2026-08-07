@@ -10,14 +10,6 @@ English: [README.md](README.md)
 
 데스크톱 Chrome·Edge 등 최신 브라우저를 권장합니다. 배경음악과 효과음은 브라우저 정책상 `게임 시작하기` 또는 각 오디오 버튼을 누른 뒤 재생됩니다.
 
-## 영상·음악
-
-- 게임플레이 데모 — 준비 중
-- [**🎵 Eight Tension — Cinematic Instrumental | Brio**](https://youtu.be/RIetjAmkfDo)
-- [**DON’T DODGE 플레이하기**](https://threelight2000.github.io/dont-dodge/)
-
-공개 빌드에는 Brio / ThreeLight Studio의 “Eight Tension”이 사용됩니다.
-
 ## 목적
 
 같은 위협을 보고도 상황에 따라 집중 베기, 방어 행동, 위치 이동 중 다른 선택이 더 재미있게 느껴지는지 검증합니다. 이 저장소는 완성된 상용 게임이 아니라 그 전투 가설을 확인하기 위한 게임성 검증용 프로토타입입니다.
@@ -126,6 +118,7 @@ docs/                          설계·비전·성능 참고 문서
 
 - UI 한글 폰트는 [Noto Sans KR](https://github.com/notofonts/noto-cjk)이며 SIL Open Font License 1.1로 배포됩니다.
 - 그래픽과 효과음은 [Kenney Roguelike/RPG Pack](https://kenney.nl/assets/roguelike-rpg-pack), [Kenney Impact Sounds](https://kenney.nl/assets/impact-sounds)를 사용하며 CC0입니다.
+- BGM `Eight Tension`의 공개 출처는 [YouTube 공개본](https://www.youtube.com/watch?v=RIetjAmkfDo)입니다.
 - 에셋 원문과 라이선스는 `assets/third_party/kenney/`에 있습니다.
 
 ## 저장소에서 제외하는 항목

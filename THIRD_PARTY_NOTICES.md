@@ -29,4 +29,6 @@ This project is built with Godot Engine 4.7. Godot Engine is available under the
 
 ## Original BGM
 
-`Eight Tension`은 프로젝트를 위해 Mureka로 제작한 오리지널 BGM입니다. Mureka Ownership Certificate(2026-03-13)로 ThreeLight Studio에 소유권, 권원 및 지식재산권이 귀속됨을 확인했으며, 증빙 원본은 개인정보 보호를 위해 별도 보관합니다. 오디오 파일은 이 저장소의 MIT 코드 라이선스와 별개입니다.
+`Eight Tension`은 프로젝트를 위해 Mureka의 제작 지원으로 만든 오리지널 BGM입니다. 공개 음원과 출처는 [YouTube 공개본](https://www.youtube.com/watch?v=RIetjAmkfDo)에서 확인할 수 있습니다. Mureka Ownership Certificate(2026-03-13)로 ThreeLight Studio에 소유권, 권원 및 지식재산권이 귀속됨을 확인했으며, 증빙 원본은 개인정보 보호를 위해 별도 보관합니다. 오디오 파일은 이 저장소의 MIT 코드 라이선스와 별개입니다.
+
+- Public source: https://www.youtube.com/watch?v=RIetjAmkfDo

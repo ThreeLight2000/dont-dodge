@@ -4076,9 +4076,9 @@ func _create_ui() -> void:
 	_build_hud_label = _make_label(Vector2.ZERO, Vector2.ZERO, 13, Color(0.82, 0.9, 0.98))
 	_build_hud_label.set_anchors_preset(Control.PRESET_CENTER_TOP)
 	_build_hud_label.offset_left = -360.0
-	_build_hud_label.offset_top = 112.0
+	_build_hud_label.offset_top = 144.0
 	_build_hud_label.offset_right = 360.0
-	_build_hud_label.offset_bottom = 134.0
+	_build_hud_label.offset_bottom = 168.0
 	_build_hud_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	layer.add_child(_build_hud_label)
 	_challenge_hud_label = _make_label(Vector2.ZERO, Vector2.ZERO, 13, Color(0.92, 0.58, 1.0))
@@ -4118,9 +4118,9 @@ func _create_ui() -> void:
 	_apply_ui_theme(xp_frame)
 	xp_frame.set_anchors_preset(Control.PRESET_CENTER_BOTTOM)
 	xp_frame.offset_left = -185.0
-	xp_frame.offset_top = -138.0
+	xp_frame.offset_top = -162.0
 	xp_frame.offset_right = 185.0
-	xp_frame.offset_bottom = -118.0
+	xp_frame.offset_bottom = -142.0
 	xp_frame.add_theme_stylebox_override("panel", _make_pixel_bar_style(Color(0.045, 0.07, 0.11, 0.94), Color(0.32, 0.62, 0.8, 0.8), 2))
 	var xp_content := Control.new()
 	xp_content.custom_minimum_size = Vector2(370.0, 20.0)
@@ -4143,9 +4143,9 @@ func _create_ui() -> void:
 	_feedback_label = _make_label(Vector2.ZERO, Vector2.ZERO, 18, Color(1.0, 0.82, 0.36))
 	_feedback_label.set_anchors_preset(Control.PRESET_CENTER_TOP)
 	_feedback_label.offset_left = -300.0
-	_feedback_label.offset_top = 84.0
+	_feedback_label.offset_top = 112.0
 	_feedback_label.offset_right = 300.0
-	_feedback_label.offset_bottom = 112.0
+	_feedback_label.offset_bottom = 140.0
 	_feedback_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	layer.add_child(_feedback_label)
 	_create_combat_hint_ui(layer)

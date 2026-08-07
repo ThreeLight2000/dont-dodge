@@ -10,14 +10,6 @@ DON’T DODGE is a Godot 4.7 web hack-and-slash prototype about making split-sec
 
 Use a recent desktop browser such as Chrome or Edge. Browser autoplay rules mean music and sound effects begin after `Start Game` or an audio button is pressed.
 
-## Media
-
-- Gameplay demo — coming soon
-- [**🎵 Eight Tension — Cinematic Instrumental | Brio**](https://youtu.be/RIetjAmkfDo)
-- [**Play DON’T DODGE**](https://threelight2000.github.io/dont-dodge/)
-
-The public build uses “Eight Tension” by Brio / ThreeLight Studio.
-
 ## The game’s question
 
 The prototype tests whether the same threat feels more interesting when the player can choose between a focused attack, a defensive response, or repositioning. It is a focused gameplay experiment rather than a finished commercial game.
@@ -132,6 +124,7 @@ The code and original documentation in this repository are released under the [M
 
 - The UI font is [Noto Sans KR](https://github.com/notofonts/noto-cjk), distributed under the SIL Open Font License 1.1.
 - Graphics use the [Kenney Roguelike/RPG Pack](https://kenney.nl/assets/roguelike-rpg-pack), and effects use [Kenney Impact Sounds](https://kenney.nl/assets/impact-sounds); both are CC0.
+- The public source for the `Eight Tension` BGM is the [YouTube upload](https://www.youtube.com/watch?v=RIetjAmkfDo).
 - Included asset files and license text are under `assets/third_party/kenney/`.
 
 ## Excluded from the repository
