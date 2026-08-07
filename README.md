@@ -13,7 +13,7 @@ Use a recent desktop browser such as Chrome or Edge. Browser autoplay rules mean
 ## Media
 
 - Gameplay demo — coming soon
-- [**🎵 Eight Tension — Original Game Soundtrack | Brio**](https://youtu.be/RIetjAmkfDo)
+- [**🎵 Eight Tension — Cinematic Instrumental | Brio**](https://youtu.be/RIetjAmkfDo)
 - [**Play DON’T DODGE**](https://threelight2000.github.io/dont-dodge/)
 
 The public build uses “Eight Tension” by Brio / ThreeLight Studio.
