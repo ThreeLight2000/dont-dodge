@@ -13,7 +13,7 @@ English: [README.md](README.md)
 ## 영상·음악
 
 - 게임플레이 데모 — 준비 중
-- [**🎵 Eight Tension — Original Game Soundtrack | Brio**](https://youtu.be/RIetjAmkfDo)
+- [**🎵 Eight Tension — Cinematic Instrumental | Brio**](https://youtu.be/RIetjAmkfDo)
 - [**DON’T DODGE 플레이하기**](https://threelight2000.github.io/dont-dodge/)
 
 공개 빌드에는 Brio / ThreeLight Studio의 “Eight Tension”이 사용됩니다.
