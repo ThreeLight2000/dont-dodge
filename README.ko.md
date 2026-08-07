@@ -10,6 +10,14 @@ English: [README.md](README.md)
 
 데스크톱 Chrome·Edge 등 최신 브라우저를 권장합니다. 배경음악과 효과음은 브라우저 정책상 `게임 시작하기` 또는 각 오디오 버튼을 누른 뒤 재생됩니다.
 
+## 영상·음악
+
+- 게임플레이 데모 — 준비 중
+- [**🎵 Eight Tension — Original Game Soundtrack | Brio**](https://youtu.be/RIetjAmkfDo)
+- [**DON’T DODGE 플레이하기**](https://threelight2000.github.io/dont-dodge/)
+
+공개 빌드에는 Brio / ThreeLight Studio의 “Eight Tension”이 사용됩니다.
+
 ## 목적
 
 같은 위협을 보고도 상황에 따라 집중 베기, 방어 행동, 위치 이동 중 다른 선택이 더 재미있게 느껴지는지 검증합니다. 이 저장소는 완성된 상용 게임이 아니라 그 전투 가설을 확인하기 위한 게임성 검증용 프로토타입입니다.
