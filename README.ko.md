@@ -88,7 +88,8 @@ godot --headless --path . --script tests/dont_dodge_localization_validation.gd
 scenes/dont_dodge/             기본 게임 씬
 scripts/dont_dodge/            전투 규칙, 입력, 엔티티, 튜닝
 scripts/dont_dodge/visuals/    픽셀 던전 배경, 상태별 전투 연출
-localization/                  게임 한영 번역 카탈로그
+`scripts/dont_dodge/dont_dodge_localization.gd`
+                              게임 한영 번역 카탈로그와 locale helper
 assets/third_party/kenney/     CC0 RPG 아틀라스와 효과음 원본
 tests/                         전투·번역 검증
 docs/                          설계·비전·성능 참고 문서

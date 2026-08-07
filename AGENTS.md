@@ -21,7 +21,7 @@
 ## Localization principles
 
 - Korean (`ko`) is the default locale; English (`en`) is the only additional supported locale unless a task explicitly expands the scope.
-- Keep player-facing text in `localization/dont_dodge.csv` and access it through the `Localization` autoload/helper and `TranslationServer`; do not add new hardcoded UI strings to GDScript, scenes, or gameplay data.
+- Keep player-facing text in the `CATALOG` dictionary inside `scripts/dont_dodge/dont_dodge_localization.gd` and access it through the `Localization` autoload/helper; do not add new hardcoded UI strings outside that catalog, scenes, or gameplay data.
 - Store translation keys in data fields such as `title_key`, `description_key`, and `detail_key`, never rendered language strings.
 - Dynamic UI state must retain translation keys plus format arguments. Resolve nested names at render time so active HUD, tooltips, feedback, upgrade, challenge, and result text changes locale correctly.
 - Persist locale changes in `user://dont_dodge_settings.cfg` under `[localization] locale`, preserving the existing audio and tutorial settings in that file.

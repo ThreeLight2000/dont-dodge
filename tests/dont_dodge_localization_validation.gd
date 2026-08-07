@@ -19,7 +19,10 @@ func _run() -> void:
 	for key: StringName in keys:
 		assert(bool(localization.call("has_key", key, &"ko")), "Missing Korean key: %s" % key)
 		assert(bool(localization.call("has_key", key, &"en")), "Missing English key: %s" % key)
+	localization.call("set_locale", &"ko", false)
+	assert(str(localization.call("translate", &"title.start")) == "게임 시작")
 	localization.call("set_locale", &"en", false)
+	assert(str(localization.call("translate", &"title.start")) == "Start Game")
 	for key: StringName in catalog_keys:
 		assert(not str(localization.call("translate", key)).is_empty())
 		assert(str(localization.call("translate", key)) != str(key))

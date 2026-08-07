@@ -88,7 +88,8 @@ The web preset in `export_presets.cfg` creates the GitHub Pages build. Pushing t
 scenes/dont_dodge/             Main game scenes
 scripts/dont_dodge/            Combat rules, input, entities, tuning
 scripts/dont_dodge/visuals/    Dungeon backdrop and combat presentation
-localization/                  Korean and English game catalog
+`scripts/dont_dodge/dont_dodge_localization.gd`
+                              Korean and English game catalog and locale helper
 assets/third_party/kenney/     CC0 RPG atlas and sound sources
 tests/                         Combat and localization validation
 docs/                          Design, vision, and performance notes

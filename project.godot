@@ -85,10 +85,6 @@ pause={
 ]
 }
 
-[locale]
-
-translations=PackedStringArray("res://localization/dont_dodge.ko.translation", "res://localization/dont_dodge.en.translation")
-
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
