@@ -841,6 +841,9 @@ func _validate_first_combat_onboarding(game: DontDodgeGame) -> void:
 	var panel: PanelContainer = game.get("_combat_hint_panel") as PanelContainer
 	var hint_label: Label = game.get("_combat_hint_label") as Label
 	assert(is_instance_valid(panel))
+	var hint_font: Font = hint_label.get_theme_font("font")
+	assert(hint_font != null)
+	assert(hint_font.has_char("가".unicode_at(0)))
 	assert(not panel.visible)
 	var player: DontDodgePlayer = game.get_node("Player") as DontDodgePlayer
 	var melee: DontDodgeEnemy = game.spawn_enemy_for_test(DontDodgeEnemy.EnemyType.MELEE, player.global_position + Vector2(90.0, 0.0))
@@ -850,6 +853,8 @@ func _validate_first_combat_onboarding(game: DontDodgeGame) -> void:
 	assert(hint_label.text == "가까운 적은 Q로 처치할 수 있습니다.")
 	assert(game.perform_attack_for_test())
 	game.call("_update_combat_hints", 0.0)
+	assert(panel.visible)
+	game.call("_update_combat_hints", 1.25)
 	assert(not panel.visible)
 
 	var second_enemy: DontDodgeEnemy = game.spawn_enemy_for_test(DontDodgeEnemy.EnemyType.MELEE, player.global_position + Vector2(100.0, 0.0))
@@ -859,6 +864,9 @@ func _validate_first_combat_onboarding(game: DontDodgeGame) -> void:
 	assert(hint_label.text == "탄환이나 혼전은 E로 위험을 지울 수 있습니다.")
 	game.call("_try_negate")
 	game.call("_update_combat_hints", 0.0)
+	assert(panel.visible)
+	assert(hint_label.text == "탄환이나 혼전은 E로 위험을 지울 수 있습니다.")
+	game.call("_update_combat_hints", 1.25)
 	assert(panel.visible)
 	assert(hint_label.text == "강한 공격 예고가 보이면 W로 이동하며 회피하세요.")
 	game.call("_update_combat_hints", 5.0)

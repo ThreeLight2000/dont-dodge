@@ -24,6 +24,7 @@ const SETTINGS_GUIDE_COMPLETED_KEY: String = "guide_completed"
 const SETTINGS_COMBAT_HINTS_VERSION_KEY: String = "combat_hints_version"
 const COMBAT_HINTS_VERSION: int = 1
 const COMBAT_HINT_DURATION: float = 5.0
+const COMBAT_HINT_MIN_DISPLAY_DURATION: float = 1.25
 const MAIN_SCENE_PATH: String = "res://scenes/dont_dodge/dont_dodge.tscn"
 const TRAINING_SCENE_PATH: String = "res://scenes/dont_dodge/training_arena.tscn"
 const UI_MODAL_SAFE_MARGIN: float = 24.0
@@ -157,6 +158,7 @@ var _feedback_remaining: float = 0.0
 var _combat_hints_enabled: bool = false
 var _combat_hint_active: CombatHint = CombatHint.NONE
 var _combat_hint_remaining: float = 0.0
+var _combat_hint_displayed_elapsed: float = 0.0
 var _combat_hint_queue: Array[int] = []
 var _combat_hint_seen: Dictionary = {}
 var _combat_hint_action_baseline: int = 0
@@ -542,6 +544,7 @@ func _start_combat_hints_if_needed() -> void:
 	_combat_hints_enabled = false
 	_combat_hint_active = CombatHint.NONE
 	_combat_hint_remaining = 0.0
+	_combat_hint_displayed_elapsed = 0.0
 	_combat_hint_queue.clear()
 	_combat_hint_seen.clear()
 	if _mode != &"normal" or _is_combat_hints_completed():
@@ -557,9 +560,11 @@ func _update_combat_hints(delta: float) -> void:
 	if _combat_hint_active == CombatHint.NONE:
 		_show_next_combat_hint()
 		return
+	_combat_hint_displayed_elapsed += delta
 	if _combat_hint_action_succeeded():
-		_complete_combat_hint()
-		return
+		if _combat_hint_displayed_elapsed >= COMBAT_HINT_MIN_DISPLAY_DURATION:
+			_complete_combat_hint()
+			return
 	_combat_hint_remaining = maxf(0.0, _combat_hint_remaining - delta)
 	if _combat_hint_remaining <= 0.0:
 		_complete_combat_hint()
@@ -604,6 +609,7 @@ func _show_next_combat_hint() -> void:
 	while not _combat_hint_queue.is_empty():
 		_combat_hint_active = int(_combat_hint_queue.pop_front())
 		_combat_hint_remaining = COMBAT_HINT_DURATION
+		_combat_hint_displayed_elapsed = 0.0
 		_combat_hint_action_baseline = _get_combat_hint_action_value(_combat_hint_active)
 		if is_instance_valid(_combat_hint_label):
 			_set_localized_text(_combat_hint_label, _get_combat_hint_key(_combat_hint_active))
@@ -616,6 +622,7 @@ func _complete_combat_hint() -> void:
 	var completed_hint: CombatHint = _combat_hint_active
 	_combat_hint_active = CombatHint.NONE
 	_combat_hint_remaining = 0.0
+	_combat_hint_displayed_elapsed = 0.0
 	_combat_hint_action_baseline = 0
 	_hide_combat_hint_panel()
 	if completed_hint == CombatHint.DODGE or completed_hint == CombatHint.NEGATE:
@@ -630,6 +637,7 @@ func _skip_combat_hints() -> void:
 	_combat_hints_enabled = false
 	_combat_hint_active = CombatHint.NONE
 	_combat_hint_remaining = 0.0
+	_combat_hint_displayed_elapsed = 0.0
 	_combat_hint_queue.clear()
 	_combat_hint_seen.clear()
 	_hide_combat_hint_panel()
@@ -4703,6 +4711,7 @@ func _create_combat_hint_ui(layer: CanvasLayer) -> void:
 	contents.add_theme_constant_override("separation", 4)
 	_combat_hint_label = Label.new()
 	_combat_hint_label.name = "HintLabel"
+	_apply_ui_theme(_combat_hint_label)
 	_set_localized_text(_combat_hint_label, &"tutorial.hint_melee")
 	_combat_hint_label.custom_minimum_size = Vector2(360.0, 42.0)
 	_combat_hint_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
